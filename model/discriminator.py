@@ -21,6 +21,8 @@ import glob
 import wandb
 import random 
 
+import model_utils
+
 class Discriminator(nn.Module):
 
     def __init__(self):
