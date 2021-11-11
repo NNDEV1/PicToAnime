@@ -19,7 +19,9 @@ import torchvision
 from torch import optim
 import glob
 import wandb
-import random 
+import random
+
+import model_utils
 
 class Generator(nn.Module):
 
